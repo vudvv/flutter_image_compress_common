@@ -19,6 +19,15 @@ android {
         namespace 'com.fluttercandies.flutter_image_compress'
     }
 
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
     compileSdkVersion 31
 
     sourceSets {
