@@ -38,10 +38,6 @@ android {
         minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
-    kotlinOptions {
-        jvmTarget = '11'
-    }
 }
 
 dependencies {
